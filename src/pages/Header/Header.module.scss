@@ -85,12 +85,12 @@
     text-decoration: none;
     border-bottom: 3px solid transparent;
 
-		&:hover,
-		&:focus,
-		&:active {
-			// background-color: var(--product-card-shadow);
-			color: var(--primary-color);
-		}
+    &:hover,
+    &:focus,
+    &:active {
+      // background-color: var(--product-card-shadow);
+      color: var(--primary-color);
+    }
   }
 
   &__utilities {
@@ -113,34 +113,34 @@
     width: 64px;
     height: 64px;
     padding: 24px;
-		position: relative;
+    position: relative;
     border-left: 1px solid var(--elements-color);
-		color: var(--secondary-color);
+    color: var(--secondary-color);
 
-		&:hover {
-			background-color: var(--product-card-shadow);
-		}
+    &:hover {
+      background-color: var(--product-card-shadow);
+    }
 
-		&::after {
-			content: "";
-			display: block;
-			bottom: 0;
-			// position: relative;
-			position: absolute;
-			height: 3px;
-			width: 100%;
-			// color: var(--primary-color);
-			background-color: transparent;
-		}
+    &::after {
+      content: '';
+      display: block;
+      bottom: 0;
+      // position: relative;
+      position: absolute;
+      height: 3px;
+      width: 100%;
+      // color: var(--primary-color);
+      background-color: transparent;
+    }
 
-		&_active::after {
-			background-color: var(--primary-color);
-		}
+    &_active::after {
+      background-color: var(--primary-color);
+    }
 
     .user_icon {
       width: 16px;
       height: 16px;
-			color: var(--primary-color);
+      color: var(--primary-color);
     }
   }
 
@@ -171,7 +171,6 @@
     color: var(--primary-color);
     border-bottom: 3px solid var(--primary-color);
   }
-  
 
   &__search {
     display: flex;

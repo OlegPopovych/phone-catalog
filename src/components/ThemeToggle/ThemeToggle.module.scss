@@ -9,19 +9,19 @@ $dayBtn: #313237;
 
 .dayNight {
   cursor: pointer;
-	display: inline-block;
-	// padding: 10px;
-	padding: 16px;
+  display: inline-block;
+  // padding: 10px;
+  padding: 16px;
 
-	@include onTablet() {
-		padding: 24px;
-	}
+  @include onTablet() {
+    padding: 24px;
+  }
 
-	&:hover {
-		background-color: var(--product-card-shadow);
-	}
+  &:hover {
+    background-color: var(--product-card-shadow);
+  }
 
-	border-left: 1px solid var(--elements-color);
+  border-left: 1px solid var(--elements-color);
 
   input {
     display: none;

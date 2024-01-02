@@ -8,7 +8,7 @@ import Breadcrumbs from './components/BreadCrumbs/BreadCrumbs';
 
 function App() {
   return (
-    <div id="theme" className='page__grid'>
+    <div id="theme" className="page__grid">
       <Header />
       <main>
         <Breadcrumbs />

@@ -9,9 +9,10 @@
   transition: all 0.5s;
 }
 
-::after, ::before {
-	box-sizing: border-box;
-	transition: all 0.5s;
+::after,
+::before {
+  box-sizing: border-box;
+  transition: all 0.5s;
 }
 
 [theme='dark'] {
@@ -49,7 +50,7 @@ html {
 }
 
 .page__grid {
-	min-height: 100vh;
-	display: grid;
-	grid-template-rows: auto 1fr auto;
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
 }
